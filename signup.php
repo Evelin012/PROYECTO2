@@ -9,14 +9,14 @@
 <body>
 <h1 class="animate__animated animate__backInLeft">Login</h1>
    <form action="signup.php" method="post">
-       <input type="text" name="Nombre (s)" placeholder="Ingrese su nombre">
-       <input type="text" name="Apellido (s)" placeholder="Ingrese su apellido">
-       <input type="text" name="Nombre de usuario" placeholder="Ingrese su nombre de usuario">
-       <input type="password" name="Contraseña" placeholder="Ingrese su constraseña">
-       <input type="password" name="Confirme su contraseña" placeholder="Ingrese su constraseña">
-       <input type="text" name="Empresa a la que pertenece" placeholder="Ingrese la empresa">
-       <input type="text" name="Cargo que desempeña" placeholder="Ingrese su cargo">
-       <input type="text" name="Email" placeholder="Ingrese su email">
+       <p>Nombre(s)<input type="text" name="Nombre(s)" placeholder="Ingrese su nombre"></p>
+       <p>Apellido(s)<input type="text" name="Apellido(s)" placeholder="Ingrese su apellido"></p>
+       <p>Nombre de usuario<input type="text" name="Nombre de usuario" placeholder="Ingrese su nombre de usuario"></p>
+       <p>Contraseña<input type="password" name="Contraseña" placeholder="Ingrese su constraseña"></p>
+       <p>Confirme su contraseña<input type="password" name="Confirme su contraseña" placeholder="Ingrese su constraseña"></p>
+       <p>Empresa a la que pertenece<input type="text" name="Empresa a la que pertenece" placeholder="Ingrese la empresa"></p>
+       <p>Cargo que desempeña<input type="text" name="Cargo que desempeña" placeholder="Ingrese su cargo"></p>
+       <p>Email<input type="text" name="Email" placeholder="Ingrese su email"></p>
     </form>
 </body>
 </html>
