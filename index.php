@@ -1,3 +1,6 @@
+<?php
+$conexion=mysqli_connect("localhost","root","","tesis");
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 </head>
 <body>
-   <form action="validar.php" method="post">
+   <form>
    <h1 class="animate__animated animate__backInLeft">Login</h1>
    <p>Usuario <input type="text" placeholder="Ingrese su nombre" name="usuario"></p>
    <p>Contraseña <input type="password" placeholder="Ingrese su contraseña" name="contraseña"></p>
