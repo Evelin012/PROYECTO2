@@ -1,5 +1,5 @@
 <?php
-$conexion=mysqli_connect("localhost","root","","tesis");
+include "validar.php";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -12,13 +12,12 @@ $conexion=mysqli_connect("localhost","root","","tesis");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 </head>
 <body>
-   <form>
    <h1 class="animate__animated animate__backInLeft">Login</h1>
    <p>Usuario <input type="text" placeholder="Ingrese su nombre" name="usuario"></p>
    <p>Contraseña <input type="password" placeholder="Ingrese su contraseña" name="contraseña"></p>
-   <input type="submit" value="Ingresar">
+   <button><a href="home.php" type="button">Ingresar</a></button>
    <h3>Si no estas registrado</h3>
-   <input action="signup.php" type="submit" value="Registrarse">
+   <button><a href="signup.php" type="button">Registrarse</a></button>
    </form> 
 </body>
 </html>
