@@ -18,7 +18,7 @@ if($filas){
 }else{
     ?>
     <?php
-    include("index.html");
+    include("index.php");
 
   ?>
   <h1 class="bad">ERROR EN CONTRASEÑA O USUARIO, VUELVA A INGRESAR LOS DATOS</h1>
