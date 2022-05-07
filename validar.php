@@ -1,7 +1,7 @@
 <?php
 include('db.php');
 $usuario=$_POST['usuario'];
-$contraseña=md5($_POST['contraseña']);
+$contraseña=$_POST['contraseña'];
 session_start();
 $_SESSION['user']=$usuario;
 
