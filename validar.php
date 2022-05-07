@@ -1,12 +1,10 @@
 <?php
-include('db.php');
 $usuario=$_POST['usuario'];
 $contraseña=$_POST['contraseña'];
 session_start();
 $_SESSION['user']=$usuario;
 
-
-$conexion=mysqli_connect("localhost","root","","tesis");
+include('db.php');
 
 $consulta="SELECT*FROM user where usuario='$usuario' and contraseña='$contraseña'";
 $resultado=mysqli_query($conexion,$consulta);
